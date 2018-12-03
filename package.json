@@ -1,0 +1,22 @@
+{
+  "name": "hw-w04d02-express-routes",
+  "version": "1.0.0",
+  "description": "![](https://media.giphy.com/media/MHGaSNNTPYjHq/giphy.gif)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MayMo7a/hw-w04d02-express-routes.git"
+  },
+  "author": "May Moha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MayMo7a/hw-w04d02-express-routes/issues"
+  },
+  "homepage": "https://github.com/MayMo7a/hw-w04d02-express-routes#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
