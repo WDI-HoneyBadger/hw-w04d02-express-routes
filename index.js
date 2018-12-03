@@ -8,7 +8,7 @@ app.get('/', function(request, response){
     response.send('This is Mohammed !!!');
 });
 
- // mport definitions
+ // import definitions
     var definitions = require('./definitions');
     
 app.get('/:definitions', function(request,response){
