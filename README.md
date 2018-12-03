@@ -4,9 +4,9 @@
 ![](https://media.giphy.com/media/MHGaSNNTPYjHq/giphy.gif)
 
 
-WOOHOOOO. Welcome, young padawan, to the world of full stack development. In unit 1 we focused on making pretty websites with colors and boxes and buttons and flexboxes and other fun things. Visual websites are part of what we call in the biz, the "front end". Now in unit 2 we are building SERVERS.  Servers are called the "back end" in web development.  A developer that can work on both the front end and the back end is called a "full stack developer". That's you!!  You're a full stack developer!
+WOOHOOOO. Welcome, young padawan, to the world of full stack development. In unit 1 we focused on making pretty websites with colors and boxes and buttons and flexboxes and other fun things. Visual websites are part of what we call in the biz, the "front end". Now in unit 2 we are building SERVERS.  Servers are called the "back end" in web development.  A developer that can work on both the front-end and the back-end is called a "fullstack developer". That's you!!  You're a fullstack developer!
 
-For the backend we'll be using express, a very handy tool for making javascript servers.
+For the back end we'll be using express, a very handy tool for making javascript servers.
 
 I can barely express how excited I am!!
 
