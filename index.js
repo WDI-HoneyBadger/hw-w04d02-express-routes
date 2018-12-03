@@ -1,7 +1,7 @@
 var express =require('express');
 var app = express();
 var port =3000;
-var defi =require('./definitions');
+var definition =require('./node_modules/definitions');
 app.listen(port,function(){
 console.log(`this port is ${port}`)
 
@@ -12,12 +12,13 @@ response.send('welcome to the terms dictionary!!')
 
 });
 
-app.get('/server',function(request,response){
-   
-    response.send("a server is a computer that serves websites or data to a 'client' (see localhost:3 0/client for the definition!).");
+app.get('/:definition',function(request,response){
+   var text = request.params.definition
+   var definition=definitions[definition]
+    response.send(`${text}${definition}`);
 
 });
-app.get('/module',function(request,response){
+/*app.get('/module',function(request,response){
 
 response.send("a module is a javascript file in node.  Modules allow us to make a single javascript app that has many javascript files!"); 
 });
@@ -54,4 +55,4 @@ response.send("responses are the objects built by the server to be sent back to 
 
 app.get('/parameter',function(request,response){
 response.send("parameters are part of the route.  Users can   send parameters to request a specific part of the data provided by a server.  For example `/greetings/trevor`")  
-});
+});*/
