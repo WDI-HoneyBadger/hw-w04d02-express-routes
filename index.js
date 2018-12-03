@@ -5,7 +5,7 @@ var definition = require('./definititons/definitions');
  app.get('/', function(request, response){
     response.send('welcome to the terms dictionary!!')
 }) 
-app.get('/definitions/:definition', function(request, response){
+app.get('/:definition', function(request, response){
     var definitions = request.params.definition;
     var termDeifintion = definition[definitions];
     response.send(`${definitions} is ${termDeifintion}`);
