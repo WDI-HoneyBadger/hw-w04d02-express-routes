@@ -11,7 +11,7 @@ app.listen(port , function(){
 app.get('/' , function(requset , respones){
     respones.send("It's definitions home page");
 })
-app.get('/definitions/:definition' , function( requset , respones) {
+app.get('/:definition' , function( requset , respones) {
 var definition = requset.params.definition ;
 var myDefinition = definitions[definition];
 respones.send(` ${definition}  is ${myDefinition } `);
