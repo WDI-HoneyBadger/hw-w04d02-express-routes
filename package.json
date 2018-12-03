@@ -1,0 +1,22 @@
+{
+  "name": "hw-w04d02-express-routes",
+  "version": "1.0.0",
+  "description": "w04d02 HW",
+  "main": "definitions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulrabbt/hw-w04d02-express-routes.git"
+  },
+  "author": "Abdulrab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdulrabbt/hw-w04d02-express-routes/issues"
+  },
+  "homepage": "https://github.com/abdulrabbt/hw-w04d02-express-routes#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
