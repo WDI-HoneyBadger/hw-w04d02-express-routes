@@ -40,15 +40,15 @@ Make a server with the following routes:
 ```
 localhost:3000/server
 localhost:3000/module
-localhost:30000/module.exports
-localhost:30000/node
-localhost:30000/package
-localhost:30000/npm
-localhost:30000/package.json
-localhost:30000/route
-localhost:30000/request
-localhost:30000/response
-localhost:30000/parameter
+localhost:3000/module.exports
+localhost:3000/node
+localhost:3000/package
+localhost:3000/npm
+localhost:3000/package.json
+localhost:3000/route
+localhost:3000/request
+localhost:3000/response
+localhost:3000/parameter
 ```
 
 Going to each route should return the definition for the word that is in the parameter.
