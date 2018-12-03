@@ -20,9 +20,6 @@ app.get('/:terms', function(request, response){
 
 
 
-
-
-
 app.listen(port, function(){
     console.log(`"welcome to the terms dictionary!!". ${port}`)
 })
