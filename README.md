@@ -1,10 +1,14 @@
 # Week 4 Day 2 - You Got SERVED
 ## A homework about express routes
 
-![](https://media.giphy.com/media/1Ju5mGZlWAqek/giphy.gif)
+![](https://media.giphy.com/media/MHGaSNNTPYjHq/giphy.gif)
 
 
 WOOHOOOO. Welcome, young padawan, to the world of full stack development. In unit 1 we focused on making pretty websites with colors and boxes and buttons and flexboxes and other fun things. Visual websites are part of what we call in the biz, the "front end". Now in unit 2 we are building SERVERS.  Servers are called the "back end" in web development.  A developer that can work on both the front end and the back end is called a "full stack developer". That's you!!  You're a full stack developer!
+
+For the backend we'll be using express, a very handy tool for making javascript servers.
+
+I can barely express how excited I am!!
 
 
 ## Assignment - Terms Dictionary!
@@ -63,4 +67,4 @@ Continue to make routes for all the terms in the `definitions.js` file
 
 
 ## due date:
-Homework is due tonight at midnight!  Help each other, ask questions, eat food, sleep well, pet a puppy.
+Homework is due tonight at midnight!  Help each other, ask questions, eat food, sleep well, pet a puppy if you can.
